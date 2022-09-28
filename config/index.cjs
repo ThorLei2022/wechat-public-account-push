@@ -7,12 +7,12 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wx75b04c73eaef3c7c',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '9ad4dbd34460602110cf77f48016f409',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -63,17 +63,17 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '乖乖潇潇',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'ohyU26NzfxiyqfQy1e9d3Q6pdYBs',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'OkkhQafQ7rY4iS1_-qX5ZbV09yzlrAp4mJgDzLebTHw',
       // 所在省份
-      province: '广东',
+      province: '重庆',
       // 所在城市
-      city: '肇庆',
+      city: '重庆',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '03-06',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -98,7 +98,7 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2012-10-15' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -171,8 +171,8 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
+      name: 'test',
+      id: 'ohyU26Flv8XbFWRmaTTO8HcCN30U',
       useTemplateId: '',
       province: '',
       city: '',
@@ -218,7 +218,7 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'OkkhQafQ7rY4iS1_-qX5ZbV09yzlrAp4mJgDzLebTHw',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
